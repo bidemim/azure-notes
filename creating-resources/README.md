@@ -7,7 +7,7 @@ A resource in an Azure is a manageable item, think virtual machines, compute res
 2. Azure CLI - The command line interface or CLI uses the terminal to manage resources. The CLI can be accessed from the Azure Portal or used locally with the authentication and authorization.
 
 3. Infrastructure as Code (IaC) - IaC let's you create services using a programming interface.  Using this method ensures consistency and supports version control. Which means you can do a rollback easily if needed. Some prominent IaC providers are - Terraform (and its open source fork OpenTofu), Ansible, Pulumi, Chef, Puppet etc. 
-Azure also supports Bicep (and ARM templates?) which are specific to Microsoft Azure only.    
+Azure also supports Bicep (and ARM templates?) which are specific to Microsoft Azure.    
 
 ## Virtual machines (VM). 
 To create a VM, other dependent or related items also need to be created. These are:
